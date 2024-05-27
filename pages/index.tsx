@@ -7,7 +7,7 @@ const WebSocketPage = () => {
   const [receivedMessages, setReceivedMessages] = useState<(string | ArrayBuffer)[]>([]);
   
   // const client = new W3CWebSocket('ws://localhost:8084');
-  const client = new W3CWebSocket('wss://103.127.133.115:8084');
+  const client = new W3CWebSocket('wss://www.tangkapdata2.my.id:8084');
 
   useEffect(() => {
 
